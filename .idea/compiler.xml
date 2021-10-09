@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CMPG323_Project_1WebSpringBoot" />
+        <module name="CMPG323_Project_1Translator" />
+        <module name="CMPG323_Project_1Domain" />
+        <module name="CMPG323_Project_1Repository" />
+        <module name="CMPG323_Project_1Logic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CMPG323_Project_1Web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CMPG323_Project_1Domain" options="-parameters" />
+      <module name="CMPG323_Project_1Logic" options="-parameters" />
+      <module name="CMPG323_Project_1Repository" options="-parameters" />
+      <module name="CMPG323_Project_1Translator" options="-parameters" />
+      <module name="CMPG323_Project_1Web" options="-parameters" />
+      <module name="CMPG323_Project_1WebSpringBoot" options="-parameters" />
+    </option>
+  </component>
+</project>

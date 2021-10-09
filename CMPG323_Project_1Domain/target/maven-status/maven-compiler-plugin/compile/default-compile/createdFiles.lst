@@ -1,0 +1,5 @@
+org\example\domain\dto\AccountTypeDto.class
+org\example\domain\persistance\AccountType.class
+org\example\domain\persistance\AccountTransaction.class
+org\example\domain\Service\GeneralResponse.class
+org\example\domain\dto\AccountTransactionDto.class
